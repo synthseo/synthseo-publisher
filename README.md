@@ -165,7 +165,7 @@ The production files in `/build/` are compiled from the source files in `/src/`.
 3. Production build: `npm run build`
 
 The source code is also available on GitHub:
-https://github.com/lecole/synthseo-publisher
+[https://github.com/lecole/synthseo-publisher](https://github.com/synthseo/synthseo-publisher)
 
 == Upgrade Notice ==
 
@@ -272,8 +272,8 @@ When enabled, the Debug tab shows:
 For support, feature requests, or bug reports:
 
 * Documentation: Available in plugin's Documentation tab
-* GitHub: https://github.com/synthseo/publisher
-* Support: https://synthseo.com/support
+* GitHub: [https://github.com/synthseo/publisher](https://github.com/synthseo/synthseo-publisher)
+* Support: https://www.synthseo.ai/support
 
 == Privacy Policy ==
 
@@ -281,7 +281,7 @@ This plugin does not collect any personal data. It only processes content submit
 
 = Third Party Services =
 
-This plugin communicates with the SynthSEO platform (https://synthseo.com) to receive content for publishing. By using this plugin, you agree to SynthSEO's terms of service and privacy policy.
+This plugin communicates with the SynthSEO platform (https://www.synthseo.ai) to receive content for publishing. By using this plugin, you agree to SynthSEO's terms of service and privacy policy.
 
 Data sent to SynthSEO:
 * Publishing status and confirmation
@@ -308,7 +308,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 ---
 
-For more information, visit [SynthSEO.com](https://synthseo.com)
+For more information, visit [SynthSEO.ai](https://www.synthseo.ai)
 ## Development
 
 ### Building from Source
