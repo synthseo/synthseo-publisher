@@ -1,0 +1,80 @@
+/* Import TailwindCSS v4 */
+@import "tailwindcss";
+
+/* Configure source paths for scanning */
+@source "../../src/**/*.{js,jsx}";
+
+/* Define custom theme variables for WordPress admin compatibility */
+@theme {
+  /* WordPress admin color palette */
+  --color-wp-admin: #23282d;
+  --color-wp-blue: #0073aa;
+  --color-wp-blue-dark: #005a87;
+  --color-wp-gray: #f1f1f1;
+  --color-wp-border: #e2e4e7;
+  --color-wp-success: #46b450;
+  --color-wp-warning: #ffb900;
+  --color-wp-error: #dc3232;
+  
+  /* Custom font stack matching WordPress admin */
+  --font-wp-admin: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  /* Custom breakpoints for WordPress admin */
+  --breakpoint-wp-mobile: 782px;
+  --breakpoint-wp-desktop: 960px;
+  
+  /* Component-specific spacing */
+  --spacing-card: 1.5rem;
+  --spacing-form: 1rem;
+  
+  /* Transitions */
+  --transition-fast: 150ms;
+  --transition-normal: 250ms;
+  --transition-slow: 350ms;
+}
+
+/* Global styles for WordPress admin integration */
+.synthseo-admin-wrap {
+  font-family: var(--font-wp-admin);
+}
+
+/* Ensure proper styling in WordPress admin */
+.wp-admin .synthseo-admin-wrap {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 20px;
+}
+
+/* Animation utilities */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { 
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+.animate-fadeIn {
+  animation: fadeIn var(--transition-normal) ease-in;
+}
+
+.animate-slideDown {
+  animation: slideDown var(--transition-normal) ease-out;
+}

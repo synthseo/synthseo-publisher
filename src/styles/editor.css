@@ -1,0 +1,31 @@
+/* Import TailwindCSS v4 */
+@import "tailwindcss";
+
+/* Configure source paths for scanning */
+@source "../../src/**/*.{js,jsx}";
+
+/* Editor-specific styles */
+.synthseo-editor-wrap {
+  font-family: var(--font-wp-admin);
+}
+
+/* Meta box styling within Gutenberg */
+.editor-styles-wrapper .synthseo-metabox {
+  margin: 0;
+  padding: var(--spacing-card);
+}
+
+/* Ensure proper contrast in editor */
+.editor-styles-wrapper .synthseo-badge {
+  font-size: 0.75rem;
+}
+
+/* Animation for editor components */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
