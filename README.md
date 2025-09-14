@@ -165,7 +165,7 @@ The production files in `/build/` are compiled from the source files in `/src/`.
 3. Production build: `npm run build`
 
 The source code is also available on GitHub:
-[https://github.com/lecole/synthseo-publisher](https://github.com/synthseo/synthseo-publisher)
+[https://github.com/synthseo/synthseo-publisher](https://github.com/synthseo/synthseo-publisher)
 
 == Upgrade Notice ==
 
